@@ -1,0 +1,75 @@
+body {
+    font-family:  'Geometria', sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #005892;
+}
+
+.container {
+    max-width: 600px;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+	background-color: ebeff8;
+}
+h1 {
+    text-align: center;
+	color: #005892;
+    transition: color 250ms, background-color 250ms, opacity 250ms, border-color 250ms;
+}
+.form-group {
+    margin-bottom: 15px;
+}
+
+#editor {
+    width: 95%;
+    height: 150px;
+    padding: 10px;
+	margin-top: 10px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    overflow-y: auto; /* Прокрутка при переполнении */
+}
+
+.buttons{
+	padding-top: 15px;
+	padding-bottom: 50px;
+}
+
+button {
+    width: 40%;
+    padding: 10px;
+    background-color: #005892;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #ebeff8;
+	color: #005892;
+}
+
+.segr_option{
+	padding: 5px;
+}
+label {
+   /* display: block;*/
+   padding-right: 5px;
+   margin-bottom: 5px;
+}
+.image{
+	margin-bottom:50px;
+}
+
+#imagePreview {
+    max-width: 30%;
+    margin-top: 10px;
+}
+
